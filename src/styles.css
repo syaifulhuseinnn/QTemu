@@ -1,0 +1,49 @@
+@import "./components/_settings/_variable.css";
+
+.btn-secondary {
+  background-color: var(--grey-3) !important;
+}
+
+.bg-secondary {
+  background-color: var(--grey-2) !important;
+}
+
+.bg-grey-1 {
+  background-color: var(--grey-1) !important;
+}
+
+.btn-grey-1 {
+  background-color: var(--grey-1) !important;
+}
+
+.fw-bold {
+  font-weight: bold !important;
+}
+
+.fw-normal {
+  font-weight: normal !important;
+}
+
+.mw-card {
+  max-width: 400px !important;
+}
+
+.app-title {
+  font-weight: 500 !important;
+}
+
+.crd:nth-child(2) {
+  margin: 1em 0 !important;
+}
+
+@media screen and (min-width: 576px) {
+  .crd:nth-child(2) {
+    margin: 1em 0 !important;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .crd:nth-child(2) {
+    margin: 0 1em !important;
+  }
+}
